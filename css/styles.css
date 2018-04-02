@@ -2,11 +2,15 @@
   display: none;
 }
 
-#location {
+.locationHide {
   cursor: pointer;
   color: #0088cc;
 }
 
-#location-hover {
+.locationHide-hover {
   text-decoration: underline;
+}
+
+.enjoyed, .hated {
+  display: none;
 }

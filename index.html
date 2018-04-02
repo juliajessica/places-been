@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Places I Have Been</h1>
+      <h1>Places I'd Like to Visit</h1>
       <div class="row">
         <div class="col-md-6">
           <h2>Add a location:</h2>
@@ -20,17 +20,30 @@
             <input type="text" class="form-control" id="notes" placeholder="Enter description of visit" required>
             <button type="submit" class="btn btn-info">Submit</button>
           </form>
-          <h2>Places Visited:</h2>
-          <ul id="location">
+          <h2>Places I Want to Visit:</h2>
+          <ul id="location" class="locationHide">
           </ul>
         </div>
         <div class="col-md-6">
           <div id="show-location">
             <h2></h2>
-            <!-- <p>Place: <span class="place"></span></p> -->
             <p>Time: <span class="time"></span></p>
             <p>Notes: <span class="notes"></span></p>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="enjoyed">I'd Like to Go Again</h2>
+          <ul id="enjoyed" class="locationHide">
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2 class="hated">Hated It</h2>
+          <ul id="hated" class="locationHide">
+
+          </ul>
         </div>
       </div>
     </div>
