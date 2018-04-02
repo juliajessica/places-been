@@ -1,6 +1,6 @@
-# **[Enter Project Name]**
+# **Places I Have Been**
 
-#### By William Chu
+#### By William Chu and Julia Sheremet
 
 ## Description
 
@@ -10,12 +10,15 @@
 
 | Specification | Input | Output |
 | --- | --- | --- |
-| Description | Input =  | Output = |
+| Program will display location | Input = "Arizona"  | Output = Arizona |
+| Program will display location details | Input = "Arizona, best time to visit, notes"  | Output = Arizona, fall, notes |
+| Program will display multiple locations | Input = "Arizona, Oregon"  | Output = Arizona, Oregon |
+| Program will toggle additional location details | Input = "Arizona, fall, notes"  | Output = Arizona |
 
 ## Setup/Installation Requirements
 
-* To view project code, _clone repository from_ https://github.com/william-chu/projectname
-* To view project, _open in web browser_ http://william-chu.github.io/projectname
+* To view project code, _clone repository from_
+* To view project, _open in web browser_
 
 ## Known Bugs
 
@@ -29,4 +32,4 @@
 
 * GPL
 
-William Chu © 2018
+William Chu and Julia Sheremet © 2018

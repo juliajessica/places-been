@@ -9,6 +9,30 @@
     <title></title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Places I Have Been</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a location:</h2>
+          <form id="new-location">
+            <input type="text" class="form-control" id="place" placeholder="Enter location name" required>
+            <input type="text" class="form-control" id="time" placeholder="Enter time to visit" required>
+            <input type="text" class="form-control" id="notes" placeholder="Enter description of visit" required>
+            <button type="submit" class="btn btn-info">Submit</button>
+          </form>
+          <h2>Places Visited:</h2>
+          <ul id="location">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-location">
+            <h2></h2>
+            <p>Place: <span class="place"></span></p>
+            <p>Time: <span class="time"></span></p>
+            <p>Notes: <span class="notes"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
