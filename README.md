@@ -14,6 +14,7 @@
 | Program will display location details | Input = "Arizona, best time to visit, notes"  | Output = Arizona, fall, notes |
 | Program will display multiple locations | Input = "Arizona, Oregon"  | Output = Arizona, Oregon |
 | Program will toggle additional location details | Input = "Arizona, fall, notes"  | Output = Arizona |
+| Program will remove unwanted location | Input = "Arizona"  | Output = |
 
 ## Setup/Installation Requirements
 
